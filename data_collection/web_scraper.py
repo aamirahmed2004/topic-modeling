@@ -1,4 +1,5 @@
 # For scraping job data from Jobbix.co
+# Jobbix.co is a job board website that also provides a range of custom filters
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
