@@ -6,30 +6,35 @@ from textacy import preprocessing
 
 # Enter information into the following variables
 
-company_name = "Orennia"   
-job_title = "Data Engineer"
-job_desc = """What You’ll Do 
+company_name = "Intuit"    
+job_title = "Senior AI/ML Software Engineer"
+job_desc = """What You’ll Do
 
-Analyze, design, develop, test, review, document and troubleshoot data pipeline / ELT solutions against multiple structured and unstructured data sources.
-Support our team of analysts through developing requirements and delivering solutions. 
-Develop code to scrape public websites for data and perform ELT processes.
-Maintain, monitor, and support production ELT processes and respond to error and emergency issues. 
+Apply statistical and machine learning techniques to process and analyze unstructured textual data
+Develop and finetune machine learning models for tasks such as entity recognition, classification, and text generation
+Utilize pretrained language models (e.g. GPT, LLAMA) and adapt them for specific use cases
+Optimize the models for production usage, including considerations for scalability, latency, and resource
+Monitor and refine deployed models for performance and efficiency, and conduct troubleshooting when necessary
+Work closely with interdisciplinary teams to deliver high-quality features and solutions
+Stay current with advancements in NLP research, methodologies, and best practices
+Be consistently productive and operate with a high degree of autonomy
 
- Who You Are 
+What You’ll Bring
 
-You have excellent knowledge and experience with Big Data concepts like data lakes, data warehouses, ELT strategies, and best practices.
-You have a strong understanding of relational and dimensional data modeling.
-You possess strong analytical and problem-solving skills.
-You have experience with DBT and SQL, and are proficent with Python.
-You have extensive experience with cloud-based data processing and warehousing technologies (Databricks, Snowflake, etc)
-You have experience with Lean and Agile development methodologies (such as Kanban or SCRUM).
-You are comfortable in entrepreneurial, self-starting, and fast-paced environment, working both independently and with our highly skilled teams.
-You have experience with other Big Data processing technologies and cloud services (AWS, GCP, Snowflake, Hive, Hadoop, MS SQL, etc.).
-You have experience with JIRA and similar organizational tools.
-You have experience building web-scraping tools against publicly available datasets (considered an asset).
-You have experience with GIS/geospatial data processing, integration, and analysis is (considered an asset).
-You have experience building or supporting data visualizations (considered an asset).
-Deep intellectual curiosity with a results-focused relentless pursuit of answers. Ability to work in a fast-paced start-up environment, embrace change and ambiguity."""
+A bachelor’s degree in Statistics, Computer Science, related technical field, or equivalent practical experience
+A minimum of 6 years of experience in a quantitative role, with ideally much of that as a machine learning engineer or a data scientist
+Knowledge of and expertise in Natural Language Processing (NLP)
+Proficiency in a data query language (e.g. SQL), and a programming language (e.g. Python) 
+Demonstrable experience with the full lifecycle of machine learning models - from development to deployment and monitoring
+Being an excellent team player with a proven ability to work effectively in cross-functional teams, showing a high degree of collaboration, flexibility, and respect for diverse perspectives
+An ability to be self-directed after work is assigned and help less experienced team members to get unblocked
+
+An advanced degree (master or PhD) in a quantitative field
+A deep understanding of deep learning, reinforcement learning, and natural language processing
+Experience with cloud platforms such as AWS, Google Cloud, or Azure, and familiarity with related machine learning services
+Experience with big data technologies like Hadoop, Spark, or similar
+Demonstrated prior experience with large language models, and generative AI 
+"""
 
 job_desc = preprocessing.normalize.whitespace(job_desc.replace("\n", " "))
 # Replace some characters which don't show up correctly in the CSV (not relevant to analysis, just for presentation)
